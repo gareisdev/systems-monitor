@@ -1,0 +1,16 @@
+# urls.yml
+urls:
+  - url: http://google.com
+    timeout: 5
+    expected_status_codes:
+      - 200
+  - url: http://instagram.com
+    timeout: 10
+    expected_status_codes:
+      - 200
+      - 201
+      - 202
+  - url: http://facebook.com
+    timeout: 15
+    expected_status_codes:
+      - 500
